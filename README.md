@@ -1,4 +1,4 @@
-![ScreenShot](file:///C:/Users/pierre/Videos/Captures/Note%20Taker%20-%20Google%20Chrome%2010_15_2020%206_33_19%20AM.png)
+![ScreenShot]()
 
 # Weather Dashboard
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
