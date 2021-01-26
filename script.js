@@ -77,7 +77,7 @@ $(document).ready(function () {
   });
   function searchWeather(searchValue) {
     let queryUrl =
-      "http://api.openweathermap.org/data/2.5/forecast?q=" +
+      "https://api.openweathermap.org/data/2.5/forecast?q=" +
       searchValue +
       "&appid=" +
       "7ef4a367461b959917b5af752a40a0eb" +
@@ -108,7 +108,7 @@ $(document).ready(function () {
         );
 
         let iconURLcurrent =
-          "http://openweathermap.org/img/wn/" + current[6] + "@2x.png";
+          "https://openweathermap.org/img/wn/" + current[6] + "@2x.png";
 
         let currentCity = $("<h2>");
         currentCity.attr("id", "current-city");
@@ -170,7 +170,7 @@ $(document).ready(function () {
         let forecastIcon1 = $("<img>");
         forecastIcon1.attr(
           "src",
-          "http://openweathermap.org/img/wn/" +
+          "https://openweathermap.org/img/wn/" +
             obj[1].weather[0].icon +
             "@2x.png"
         );
@@ -194,7 +194,7 @@ $(document).ready(function () {
         let forecastIcon2 = $("<img>");
         forecastIcon2.attr(
           "src",
-          "http://openweathermap.org/img/wn/" +
+          "https://openweathermap.org/img/wn/" +
             obj[2].weather[0].icon +
             "@2x.png"
         );
@@ -218,7 +218,7 @@ $(document).ready(function () {
         let forecastIcon3 = $("<img>");
         forecastIcon3.attr(
           "src",
-          "http://openweathermap.org/img/wn/" +
+          "https://openweathermap.org/img/wn/" +
             obj[3].weather[0].icon +
             "@2x.png"
         );
@@ -242,7 +242,7 @@ $(document).ready(function () {
         let forecastIcon4 = $("<img>");
         forecastIcon4.attr(
           "src",
-          "http://openweathermap.org/img/wn/" +
+          "https://openweathermap.org/img/wn/" +
             obj[4].weather[0].icon +
             "@2x.png"
         );
@@ -266,7 +266,7 @@ $(document).ready(function () {
         let forecastIcon5 = $("<img>");
         forecastIcon5.attr(
           "src",
-          "http://openweathermap.org/img/wn/" +
+          "https://openweathermap.org/img/wn/" +
             obj[5].weather[0].icon +
             "@2x.png"
         );
